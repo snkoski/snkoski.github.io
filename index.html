@@ -3,13 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Shawn Koski</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
+    <div class="parallax"></div>
     <div class="navbar" id="topnav">
       <a href="#home" class="active">Home</a>
       <a href="#projects">Projects</a>
       <a href="#blog">Blog</a>
       <a href="#contact">Contact</a>
+      <a href="javascript:void(0)" class="icon" onclick="toggleHamburger()">Hamburger</a>
     </div>
     <h1>Shawn Koski</h1>
     <h2>This site is under construction come back tomorrow (Thursday 2/28) to see how much nicer it is :)</h2>
@@ -19,6 +28,66 @@
     <br>
     <h2><a href="https://plankaroo.herokuapp.com/">Plankaroo</a></h2>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <h2>This way to <a href="https://shawnkoski.com/nba-legacy-compare/">Project Hoop Dreams</a></h2>
+    <script>
+    $(window).scroll( function() {
+// apply css classes based on the situation
+if ($(".navbar").offset().top > 100) {
+  $(".navbar").addClass("navbar-scrolled");
+} else {
+  $(".navbar").removeClass("navbar-scrolled");
+}
+});
+    </script>
   </body>
 </html>
