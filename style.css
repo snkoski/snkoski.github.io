@@ -1,68 +1,99 @@
-body, html {
-  height: 100%;
+body {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5; */
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
-.navbar {
-  background-color: rgba(51, 170, 51, .1)
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
   overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  /* opacity: 0.2; */
 }
 
-.navbar a {
-  float: right;
-  display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
   text-decoration: none;
-  font-size: 17px;
-  opacity: 1;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
-.navbar a:hover {
-  background-color: #dddddd;
-  color: #000000;
-  opacity: 1;
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
 }
 
-.active {
-  background-color: #e94e4e;
-  color: #000000;
-  opacity: 1;
+header #branding {
+  float: left;
 }
 
-.navbar .icon {
-  display: none;
+header #branding h1 {
+  margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-  .navbar a.active {
-    float: left;
-  }
+header nav {
+  float: right;
+  margin-top: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
-  .navbar.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
 }
 
-.navbar-scrolled {
-  background-color: #ffffff;
-  opacity: 1;
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* About */
+#about {
+  min-height: 400px;
+  background:url("./img/pineapples.jpeg") 0 -400px;
+  text-align: center;
+  color: #111111;
+}
+
+/* Boxes */
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float:left;
+  width: 15%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
 }
