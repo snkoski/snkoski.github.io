@@ -24,14 +24,14 @@ ul {
 /* Header */
 header {
   background: #d3f8ff;
-  color: #ffffff;
+  color: #000000;
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #fff0d3 3px solid;
 }
 
 header a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -61,7 +61,7 @@ header h1 {
 }
 
 header .highlight, header .current a {
-  color: #fff0d3;
+  color: #ff0000;
   font-weight: bold;
 }
 
@@ -110,11 +110,17 @@ header .container nav .skip {
 
 /* Footer */
 footer {
+  border-top: 1px black solid;
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
-  background-color: #fff0d3;
-  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: left;
+  font-size: 10px;
+}
+
+footer #fineprint {
+  font-size: 6px;
 }
 
 /* Media Queries */
@@ -162,6 +168,7 @@ footer {
     transition: max-height 0.25s ease-out;
     z-index: 1;
     background-color: #d3f8ff;
+    display: none;
   }
 
   nav li a {
@@ -193,6 +200,7 @@ footer {
     width: 150px;
     background-color: #d3f8ff;
     padding-bottom: 20px;
+    display: block;
     /* text-align: center; */
   }
 
