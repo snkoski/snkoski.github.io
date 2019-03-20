@@ -39,11 +39,6 @@ a.no-underline{
     text-decoration: none;
   }
 
-  p {
-    word-break: break-all;
-    white-space: normal;
-  }
-
 /* Nav */
   #nav {
     background-color: #000000;
