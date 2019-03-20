@@ -39,6 +39,11 @@ a.no-underline{
     text-decoration: none;
   }
 
+  p {
+    word-break: break-all;
+    white-space: normal;
+  }
+
 /* Nav */
   #nav {
     background-color: #000000;
@@ -293,9 +298,9 @@ a.no-underline{
     width: 48px;
   }
 
-  ul.social li a.fa-linkedin {
+  /* ul.social li a.fa-linkedin {
     background-color: #006599;
-  }
+  } */
 
   ul.social li a:hover {
     top: -5px;
