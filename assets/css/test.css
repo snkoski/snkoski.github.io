@@ -2131,6 +2131,10 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	#fineprint {
+		font-size: 0.3em;
+	}
+
 /* Copyright */
 
 	#copyright {
