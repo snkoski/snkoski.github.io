@@ -2214,6 +2214,9 @@ input, select, textarea {
 					height: 24em;
 					margin: 0;
 				}
+			#about-fineprint {
+				font-size: 0.5em;
+			}
 
 	}
 
